@@ -15,7 +15,7 @@ $id = $_GET['id'];
 $result = $conn->query("SELECT * FROM galeri_gambar WHERE id = $id");
 $row = $result->fetch_assoc();
 ?>
-/
+
 <div class="container mt-5">
     <h2>Edit Nama Gambar</h2>
     <form action="sv_editGambar.php" method="post">
